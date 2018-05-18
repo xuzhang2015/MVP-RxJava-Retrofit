@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context="com.example.xz.mytelegraphapp.movieList.MainActivity">
+
+    <fragment
+        android:id="@+id/movie_list_fragment"
+        android:name="com.example.xz.mytelegraphapp.movieList.MovieListFragment"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="2" />
+
+    <FrameLayout
+        android:id="@+id/details_layout"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"></FrameLayout>
+</LinearLayout>
